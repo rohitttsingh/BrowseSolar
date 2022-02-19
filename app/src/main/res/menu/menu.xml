@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Settings"
+            android:icon="@drawable/settings"
+            android:id="@+id/settings"/>
+
+        <item android:title="Downloads"
+            android:icon="@drawable/downloads"
+            android:id="@+id/downloads"/>
+
+        <item
+            android:title="Bookmark"
+            android:icon="@drawable/bookmark"
+            android:id="@+id/bookmark"/>
+
+        <item
+            android:title="FeedBack"
+            android:icon="@drawable/feedback"
+            android:id="@+id/feedback"/>
+
+    </group>
+
+
+
+    <item
+        android:title="">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:title="Like"
+                    android:icon="@drawable/like"
+                    android:id="@+id/like"/>
+
+                <item
+                    android:title="Share"
+                    android:icon="@drawable/share"
+                    android:id="@+id/share"/>
+
+                <item
+                    android:title="Logout"
+                    android:icon="@drawable/logout"
+                    android:id="@+id/logout"/>
+            </group>
+
+        </menu>
+
+    </item>
+</menu>

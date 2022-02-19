@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/buttongradient"
+    android:padding="10px"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="CLIMATE OF YOUR CITY"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+
+    <EditText
+        android:id="@+id/citysearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:foregroundGravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:hint="Enter your city name"
+        android:inputType="text"
+        android:padding="5dip"
+        android:textColor="@color/black"
+        android:textColorHint="#808080" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+    <Button
+        app:backgroundTint="#E2E5DE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getweather"
+        android:text="Okay !"
+        android:background="@drawable/mtbutton"
+        android:textColor="@color/black"
+        android:id="@+id/okaybutton"/>
+
+</LinearLayout>
